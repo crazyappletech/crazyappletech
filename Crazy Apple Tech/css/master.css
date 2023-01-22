@@ -1,0 +1,131 @@
+  h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 56px;
+    margin: 0;
+  }
+
+  body {
+    margin: 0;
+
+  }
+
+  h3 {
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0px;
+    font-weight: 200;
+  }
+
+  img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .youtube {
+    width: 400px;
+  }
+
+  .square {
+    opacity: 0;
+    z-index: -9999;
+  }
+
+  nav {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    backdrop-filter: saturate(180%) blur(20px);
+    top: 0px;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    width: 33%;
+    justify-content: space-between  ;
+    align-items: center;
+  }
+
+  li {
+    padding: 5px;
+    margin: 5px;
+    color: #f5f5f7;
+    font-size: 12px;
+    letter-spacing: -.01em;
+  }
+
+  a {
+    display: block;
+    text-align: center;
+    color: #2997ff;
+    letter-spacing: 0px;
+    font-size: 21px;
+    text-decoration: none;
+  }
+
+  .storelink:hover {
+    text-decoration: underline;
+  }
+
+  .storelink::after {
+    content: " >";
+  }
+
+  .store {
+    background-color: #030329;
+    padding: 50px 0px;
+    color: white;
+    letter-spacing: 2px;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .foursquares {
+    z-index: -9999;
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .foursquares > div {
+    width: 49.5%;
+    height: 653px;
+  }
+
+  .foursquares > div > h1 {
+    margin: 50px;
+  }
+
+  .contact {
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    height: 300px;
+  }
+
+.toilet {
+  display: block;
+  background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%);
+  background-size: 200% auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: 0;
+  margin: 40px auto;
+
+}
+
+.poop {
+  color: #fff;
+  z-index: -9999;
+}
